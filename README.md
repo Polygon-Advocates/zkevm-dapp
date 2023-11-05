@@ -1,7 +1,6 @@
 # 📱 Counter DApp
-![Dapp banner](./assets/full-stack-counter-dapp.jpg)  
 
-🍀 This project is a simple decentralized counter application (DApp) that demonstrates how to build a full-stack DApp using Next.js, Web3.js, Foundry, and Polygon zkEVM. Users can interact with the counter by incrementing and decrementing its value through a user-friendly interface. 🍀
+🍀 This project is a simple decentralized counter application (DApp) that demonstrates how to build a full-stack DApp using Next.js, Web3.js, Hardhat, and Polygon zkEVM. Users can interact with the counter by incrementing and decrementing its value through a user-friendly interface. 🍀
 
 ## 👩🏻‍🔧 Technologies
 
@@ -15,7 +14,7 @@
 
 **📜 Smart Contracts**: 
 
-[Foundry](https://book.getfoundry.sh/) - A Rust-based smart contract development framework for writing, testing, and deploying contracts.
+[Hardhat](https://book.getHardhat.sh/) - A Rust-based smart contract development framework for writing, testing, and deploying contracts.
 
 **💜 Blockchain Network**:
 
@@ -27,14 +26,14 @@
 
 - Node.js (>= 14.x.x)
 - Yarn (>= 1.22.x)
-- Foundry CLI
+- Hardhat CLI
 
 ### ⬇️ Installation
 
 1. 🛠️ Clone the repository:
 
    ```
-   git clone https://github.com/Polygon-Advocates/zkevm-nextjs-counter-dapp.git && cd zkevm-nextjs-counter-dapp
+   git clone https://github.com/Polygon-Advocates/zkevm-dapp.git && cd zkevm-nextjs-counter-dapp
    ```
    
 
@@ -48,7 +47,7 @@
 3. 🛠️ Compile and deploy the smart contract:
 
    ```
-   cd ../contracts && foundry build && foundry deploy
+   cd ../backend && Hardhat build && Hardhat deploy
    ```
 
    Make sure to copy the deployed contract address for the next step.
